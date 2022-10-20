@@ -50,6 +50,15 @@ public class Queue<T> {
         head = head.next;
         return data;
     }
+    public void print()
+    {
+        QueueNode<T> current = head;
+        while(current != null)
+        {
+            System.out.println(current );
+            current = current.next;
 
+        }
+    }
 
 }
